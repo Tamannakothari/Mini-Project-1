@@ -1,0 +1,94 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  background: #fff8f2;
+}
+
+header {
+  background: linear-gradient(90deg, #ff7a18, #ffb347, #ff6ec7);
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #ffd166;
+  padding: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+}
+
+.hero img {
+  width: 70%;
+  border-radius: 20px;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  padding-left: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer {
+  background: #ff7a18;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.countries-horizontal {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 10px;
+  flex-wrap: wrap;
+}
+
+.countries-horizontal .country {
+  text-align: center;
+}
+
+.countries-horizontal img {
+  width: 80px;
+  border-radius: 8px;
+}
